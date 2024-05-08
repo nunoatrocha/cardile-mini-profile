@@ -1,0 +1,98 @@
+/*  Inicio das configurações iniciais  */
+:root {
+    --bg-black: #000;
+    --black-shade: #0A0A0A;
+    --dark-grey: #676767;
+    --white: #fff;
+    --card: #CCC;
+    --background: #C9C9C9;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    color: #C9C9C9;
+}
+/*  Fim das configurações iniciais  */
+
+.container {
+    background-color: var(--bg-black);
+    width: 100%;
+    height: 102.4rem;
+    display: grid;
+    place-content: center;
+}
+.card__container {
+    background-color: var(--black-shade);
+    width: 37rem;
+    height: 69.4rem;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.img__container {
+    position: relative;
+}
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.main_descritpion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_descritpion h1 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.4rem;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--white);
+}
+
+.main_descritpion h3 {
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--dark-grey);
+    margin-bottom: 0.4rem;
+}
+.main_descritpion p {
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--dark-grey);
+}
+
+.button button{
+    width: 17.9rem;
+    height: 5.6rem;
+    margin-top: 3.2rem;
+    padding: 1.6rem 2.4rem;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--black-shade);
+    border-radius: 1rem;
+    border: none;
+}
